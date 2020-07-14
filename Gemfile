@@ -69,3 +69,9 @@ gem 'jquery-rails'
 
 #devise
 gem 'devise'
+
+#carriewave
+gem 'carrierwave', '~> 1.0'
+
+#mini_magick
+gem 'mini_magick'
