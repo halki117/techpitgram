@@ -13,7 +13,7 @@ class CommentsController < ApplicationController
   end
 
   def destroy
-    @commnet = Comment.find_by(id: params[:id])
+    @comment = Comment.find_by(id: params[:id])
     @post = @comment.post
     if @comment.destroy
       respond_to :js
