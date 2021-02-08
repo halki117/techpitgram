@@ -71,7 +71,7 @@ gem 'jquery-rails'
 gem 'devise'
 
 #carriewave
-gem 'carrierwave', '~> 1.0'
+gem 'carrierwave', '~> 1.3'
 
 #mini_magick
 gem 'mini_magick'
